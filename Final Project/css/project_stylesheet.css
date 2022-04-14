@@ -1,0 +1,195 @@
+/*
+Name: Matthew Klapchar
+Date of Creation: Mar 29 2022
+File Name: project_stylesheet.css
+Purpose: External stylesheet for WEB-140-0003 Final Project
+*/
+
+/* CSS Reset */
+html, body, main, h1, p, nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    }
+
+/* Begin Style Rules */
+
+html {
+    font-family: Calibri, serif;
+}
+
+body {
+    background-color: #fff3a5;
+}
+
+.home {
+    font-size: 3.5em;
+    margin-top: 2%;
+    text-align: center;
+
+}
+
+header img {
+    margin: 10px auto;
+    padding: 10px 10px 20px 10px;
+    display: block;
+}
+
+#bike1 {
+    width: 420pt;
+    height: 280pt;
+    float: left;
+    margin-top: 10%;
+    margin-left: 1%;
+    border: 2px solid black;
+}
+
+#bike2 {
+    width: 420pt;
+    height: 280pt;
+    float: right;
+    margin-top: 10%;
+    margin-right: 1%;
+    border: 2px solid black;
+}    
+
+#bike3 {
+    width: 420pt;
+    height: 280pt;
+    border: 2px solid black;
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    clear: left;
+    text-align: center;
+}
+
+nav a {
+    padding: 10px;
+    background-color: #ffb35c;
+    color: #ffffff;
+    font-family: Calibri, serif;
+    font-size: 20px;
+    margin: 7px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #ffffff;
+    color: #ffb35c;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+footer{
+    margin-top: auto;
+    text-align: right;
+    padding: 0.5%
+}
+
+.about {
+    font-size: 2.5em;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.companyinfo {
+    border: 2px solid black;
+    margin: 1%;
+    padding: 0.5em;
+}
+
+#businessman {
+    border: 2px solid black;
+    width: 200pt;
+    height: 300pt;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div a {
+    padding: 10px;
+    background-color: #ffb35c;
+    color: #ffffff;
+    font-family: Calibri, serif;
+    font-size: 40px;
+    margin: 7px;
+    text-decoration: none;
+    clear: both;
+}
+
+.bikenav {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.contact {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.social {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1.5em;
+}
+
+.address {
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 2%;
+}
+
+#mapdiv {
+    margin: 0 auto;
+    margin-top: 2%;
+    text-align: center;
+}
+
+#map1 {
+    width: 360px;
+    height: 300px;
+    border: 3px solid black;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 350px;
+    column-gap: 5px;
+    row-gap: 50px;
+    text-align: center;
+    margin: 1% 3%;
+    padding: 0.5%;
+}
+
+.biketitle {
+    font-size: 2em;
+}
+
+.cost {
+    font-size: 2.5em;
+}
+
+.buy {
+    width: 250px;
+    height: 200px;
+}
+
+.subpages {
+    font-size: 3em;
+    margin-top: 3%;
+    text-align: center;
+}
+
+/* End of Style Rules */
